@@ -14,7 +14,7 @@ class PrimeOrNot {
                 div++;
         }
         System.out.println("Prime");
-        int $ = 32;
-        System.out.println($);
+        // int $ = 32;
+        // System.out.println($);
     }
 }
