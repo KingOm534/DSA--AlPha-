@@ -8,8 +8,8 @@ public class PrimeOrNot2 {
         if (n == 2) {
             System.out.println("Number is prime");
         } else {
-            for (int i = 2; i <= Math.sqrt(n); i++) {
-                if (n % i == 0) {
+            for (int i = 2; i <= Math.sqrt(n); i++) { // sqrt n (check notion page) => less time complexity
+                if (n % i == 0) { // n is multiple of i ( i is not equal to 1 or n)
                     isPrime = false;
                 }
             }
