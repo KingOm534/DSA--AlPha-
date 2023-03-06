@@ -19,6 +19,6 @@ public class PrimeInRange {
     }
 
     public static void main(String[] args) {
-        IsPrime(6);
+        System.out.println(IsPrime(123));
     }
 }
