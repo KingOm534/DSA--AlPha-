@@ -2,23 +2,28 @@ package Functions;
 
 public class PrimeInRange {
 
-    public static boolean IsPrime(int n) {
+    public static boolean isPrime(int n) {
         if (n == 2) {
             return true;
         }
-        for (int i = 2; i >= Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
-    public static int PrimesInRange(int n) {
-        return 3;
+    public static void primesInRange(int n) {
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
     }
 
     public static void main(String[] args) {
-        System.out.println(IsPrime(123));
+        primesInRange(20);
     }
 }

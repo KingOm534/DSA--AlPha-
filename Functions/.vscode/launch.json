@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "SumOfDigit",
+            "projectName": "Functions_45d1c258"
+        },
+        {
+            "type": "java",
+            "name": "IsPallindrome",
+            "request": "launch",
+            "mainClass": "IsPallindrome",
+            "projectName": "Functions_45d1c258"
+        },
+        {
+            "type": "java",
+            "name": "IsEven",
+            "request": "launch",
+            "mainClass": "IsEven",
+            "projectName": "Functions_45d1c258"
+        },
+        {
+            "type": "java",
+            "name": "AvgOfThree",
+            "request": "launch",
+            "mainClass": "AvgOfThree",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "BinToDec",
+            "request": "launch",
+            "mainClass": "BinToDec",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "PrimeInRange",
+            "request": "launch",
+            "mainClass": "Functions.PrimeInRange",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
