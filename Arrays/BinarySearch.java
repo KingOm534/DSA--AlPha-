@@ -20,6 +20,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int array[] = { 2, 3, 6, 9 };
-        System.out.println(binarySearch(9, array));
+        Scanner sc = new Scanner(System.in);
+        int key = sc.nextInt();
+        System.out.println(binarySearch(key, array));
     }
 }
