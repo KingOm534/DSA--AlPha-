@@ -2,10 +2,7 @@ import java.util.*;
 
 public class SubArray {
     public static void subArray(int arr[]) {
-        // int sum = 0, ts = 0;
-        int currSum = 0;
-        int maxSum = Integer.MIN_VALUE;
-        int minSum = Integer.MAX_VALUE;
+        int ts = 0;
         // Loop1->finds start
         for (int i = 0; i < arr.length; i++) {
             int start = i;
@@ -14,26 +11,13 @@ public class SubArray {
                 int end = j;
                 // loop3
                 for (int k = start; k < end; k++) {
-                    // System.out.print(arr[k] + " ");
-                    currSum += arr[k];
-
-                    // ts++;
+                    System.out.print(arr[k] + " ");
+                    ts++;
                 }
-                System.out.println(currSum);
-                if (maxSum < currSum) {
-                    maxSum = currSum;
-                }
-                if (minSum > currSum) {
-                    minSum = currSum;
-                }
-
-                // System.out.println();
+                System.out.println();
             }
         }
-        System.out.println("max sum = " + maxSum);
-        System.out.println("min sum = " + minSum);
-
-        // System.out.println(ts);
+        System.out.println("Total subArrays = " + ts);
     }
 
     public static void main(String[] args) {
